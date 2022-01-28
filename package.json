@@ -1,6 +1,6 @@
 {
-  "name": "vue-interface",
-  "version": "0.4.59",
+  "name": "@dev.envivo/vue-interface",
+  "version": "0.1.0",
   "scripts": {
     "serve": "vue-cli-service build --target lib --name=VueInterface ./src/install.js --watch",
     "build": "vue-cli-service build --target lib --name=VueInterface ./src/install.js",
@@ -46,5 +46,8 @@
     "webpack-manifest-plugin": "^2.2.0"
   },
   "main": "./src/index.js",
-  "styles": "./dist/vue-interface.css"
+  "styles": "./dist/vue-interface.css",
+  "publishConfig": {
+    "access": "public"
+  }
 }
